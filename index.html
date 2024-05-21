@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+        <div class="main">
+            <input type="checkbox" id="check" aria-hidden="true">
+
+            <div class="login">
+                <form>
+                    <label class="big" for="check" aria-hidden="true">Login</label>
+                    <div class="input-box">
+                        <input type="text" name="user" autocomplete="off" placeholder="Username" required>
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" placeholder="Password" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+
+                    <div class="remember">
+                        <label><input type="checkbox" class="checkbox">Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+
+                    <button>Login</button>
+                </form>
+            </div>
+
+            <div class="register">
+                <form class="div-register">
+                    <label class="big" for="check" aria-hidden="true">Register</label>
+                    <div class="input-box">
+                        <input type="text" name="user" autocomplete="off" placeholder="Username" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" autocomplete="off" placeholder="Email" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <button>Register</button>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
